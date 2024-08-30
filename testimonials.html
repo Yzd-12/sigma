@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read the testimonials from our satisfied customers who have benefited from using our RZF Software for their businesses.">
+    <title>Testimoni Pelanggan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="icon" href="logo rzf.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #66CDAA;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            color: #66CDAA;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: white;
+        }
+        nav ul li {
+            margin: 0.5rem;
+        }
+        nav ul li a {
+            color: #66CDAA;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #007BFF;
+        }
+        main {
+            padding: 2rem;
+            margin: 2rem;
+            background-color: #66CDAA;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .testimonial {
+            background-color: #4CAF50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .testimonial:hover {
+            transform: translateY(-10px);
+        }
+        .testimonial p {
+            font-style: italic;
+            color: #fff;
+        }
+        .testimonial h3 {
+            margin-top: 1rem;
+            color: #fff;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @media (max-width: 767.98px) {
+            main {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            .testimonial {
+                margin: 0.5rem;
+            }
+        }
+         .button {
+            background-color: orange; /* Warna dasar tombol */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s; /* Transisi untuk animasi */
+        }
+
+        .button:hover {
+            background-color: #45a049; /* Warna saat di-hover */
+            transform: scale(1.1); /* Skala sedikit lebih besar */
+        }
+.testimoni {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: auto;
+}
+
+.rating {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.star {
+    color: #ccc;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.star:hover,
+.star.selected {
+    color: gold;
+    transform: scale(1.2);
+}
+
+.star.anim {
+    animation: sparkle 1s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold, 0 0 20px gold;
+    }
+    50% {
+        text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+    }
+}
+
+.rating-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+    </style>
+</head>
+
+<body>
+        <header>
+            <center>
+           <img src="logo rzf.png" alt="Logo Perusahaan" width="80" height="auto">
+           </center>
+        <h1 class="text-center">Testimoni</h1>
+        <hr style="background-color: #66CDAA;">
+        <nav>
+            <ul class="d-flex justify-content-center flex-wrap">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="product.html">Produk</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="features.html">Fitur</a></li>
+                <li><a href="pricing.html">Harga</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="testimonials.html">Testimoni</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container my-4">
+        <div class="section">
+            <h2>Testimoni Pelanggan Kami</h2>
+            <div class="row testimonials">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial">
+                        <p>"Aplikasi kasir ini sangat membantu bisnis saya. Mudah digunakan dan fitur-fiturnya lengkap!"</p>
+                        <h3>- <b>Budi</b>, <i>Pemilik Toko Sembako</i></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial">
+                        <p>"Pelayanan yang diberikan sangat memuaskan. Tim supportnya sangat responsif dan membantu."</p>
+                        <span class="star filled color: gold;" >&#9733;&#9733;&#9733;&#9733;</span>
+                        <h3>- <b>Siti</b>, <i>Pemilik Restoran</i></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial">
+                        <p>"Sistem kasir yang sangat efisien. Saya bisa mengelola stok dan penjualan dengan lebih mudah."</p>
+                        <span class="star filled">&#9733;&#9733;&#9733;&#9733;</span>
+                        <h3>- <b>Andi</b>, <i>Pemilik Toko konveksi</i></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial">
+                        <p>"Integrasi dengan sistem accounting sangat memudahkan dalam laporan keuangan bulanan."</p>
+                        <h3>- <b>Lila</b>, <i>Pemilik Percetakan</i></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Our Website</p>
+    </footer>
+     
+    <script>
+     document.querySelectorAll('.star').forEach(star => {
+    star.addEventListener('click', function() {
+        let rating = this.getAttribute('data-rating');
+        document.getElementById('rating-value').textContent = rating;
+
+        // Remove the 'selected' class from all stars
+        document.querySelectorAll('.star').forEach(star => star.classList.remove('selected'));
+        
+        // Add the 'selected' class to the clicked star and all stars before it
+        this.classList.add('selected');
+        let previousStar = this.previousElementSibling;
+        while (previousStar) {
+            previousStar.classList.add('selected');
+            previousStar = previousStar.previousElementSibling;
+        }
+        
+        // Add sparkle animation to the selected stars
+        document.querySelectorAll('.star.selected').forEach(star => star.classList.add('anim'));
+    });
+});
+</script>
+ 
+    </script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
